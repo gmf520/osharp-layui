@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{16AFC72F-8F38-4EA1-92DC-813AFE5E9E9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{F6CEE954-D9D2-4E4D-B65C-772A72773C92}"
+	ProjectSection(SolutionItems) = preProject
+		build\public.props = build\public.props
+		build\version.props = build\version.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Liuliu.Demo.Web", "src\Liuliu.Demo.Web\Liuliu.Demo.Web.csproj", "{8F46FADF-8399-4B8F-B549-7D2F8211232D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F46FADF-8399-4B8F-B549-7D2F8211232D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F46FADF-8399-4B8F-B549-7D2F8211232D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F46FADF-8399-4B8F-B549-7D2F8211232D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F46FADF-8399-4B8F-B549-7D2F8211232D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F46FADF-8399-4B8F-B549-7D2F8211232D} = {16AFC72F-8F38-4EA1-92DC-813AFE5E9E9A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {119D5A14-14D7-43BE-934D-4A9241896306}
+	EndGlobalSection
+EndGlobal

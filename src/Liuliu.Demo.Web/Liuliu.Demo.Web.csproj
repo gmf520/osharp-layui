@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <Import Project="../../build/public.props" />
+  <Import Project="../../build/version.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>a31461b3-d3b8-4628-ae94-f330661476d9</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="OSharpNS" Version="3.1.7" />
+    <PackageReference Include="OSharpNS.EntityFrameworkCore.Sqlite" Version="3.1.7" />
+    <PackageReference Include="OSharpNS.Hangfire" Version="3.1.7" />
+    <PackageReference Include="OSharpNS.Hosting.Apis" Version="3.1.7" />
+    <PackageReference Include="OSharpNS.Redis" Version="3.1.7" />
+    <PackageReference Include="OSharpNS.Swagger" Version="3.1.7" />
+  </ItemGroup>
+
+</Project>
